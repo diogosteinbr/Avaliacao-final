@@ -1,0 +1,158 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mywhite-50: #fdfdfd;
+  --mywhite-100: #fafbfc;
+  --mywhite-200: #f5f5f5;
+  --mygrey: #7c7c7c;
+  --myalmostblack: #151618;
+  --myyellow-100: #ffda6e;
+  --myyellow-200: #ffd14c;
+  --mylight-purple: #cfccff;
+  --mypurple: #6c63ff;
+  --myblue: #574cff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.roundcorners {
+  border-radius: 25px;
+}
+
+@media only screen and (min-width: 769px) {
+  .image-bg{
+    background:url("/img/bg-vector.png") no-repeat top right;
+    height: 800px;
+   }}
+
+@media (min-width: 1000px){
+  #hero .container {
+    margin-top: 200px;
+  }
+}
+
+header .btn-1 {
+  color: var(--myalmostblack);
+  background-color: var(--myyellow-100);
+  border-radius: 8px; 
+}
+
+header .btn-1:hover {
+  color: var(--myalmostblack);
+  background-color: var(--myyellow-200);
+  border-radius: 8px; 
+}
+
+header .btn-2 {
+  color: var(--mypurple);
+  background-color: var(--mywhite-50);
+  border-radius: 8px;
+}
+
+header .btn-2:hover {
+  color: var(--myalmostblack);
+  background-color: var(--mylight-purple);
+  border-radius: 8px;
+}
+
+#hero .container {
+  margin-bottom: 150px;
+}
+
+#hero img {
+  width: 600px;
+}
+
+#hero .btn {
+  color: var(--myalmostblack);
+  background-color: var(--myyellow-100);
+}
+
+#hero .btn:hover{
+  color: var(--mywhite-50);
+  background-color: var(--mypurple);
+}
+
+#about {
+  background-color: var(--mywhite-200);
+  color: var(--myalmostblack);
+}
+
+#about .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#features {
+  color: var(--myalmostblack);
+  margin-top: 50px;
+}
+
+#features .btn {
+  color: var(--mywhite-50);
+  background-color: var(--mypurple);
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+#features .btn:hover {
+  color: var(--myalmostblack);
+  background-color: var(--myyellow-100);
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+#testimonials {
+  color: var(--myalmostblack);
+  background-color: var(--mywhite-200);
+}
+
+#contact {
+  background-color: var(--myalmostblack);
+}
+
+#contact-container {
+  background-color: var(--mypurple);
+}
+
+#contact h2 {
+  color: var(--mywhite-50);
+}
+#contact .btn {
+  color: var(--myalmostblack);
+  background-color: var(--myyellow-100);
+}
+
+#contact .btn:hover {
+  color: var(--mypurple);
+  background-color: var(--mywhite-50);
+}
+
+#section-footer {
+  background-color: var(--myalmostblack);
+}
+
+footer a, a:active, a:visited{
+  text-decoration: none;
+  color: var(--mywhite-50);
+}
+
+footer a:hover{
+  color: var(--mypurple) !important;
+}
+
