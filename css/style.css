@@ -149,7 +149,7 @@ header .btn-2:hover {
 
 footer a, a:active, a:visited{
   text-decoration: none;
-  color: var(--mywhite-50);
+  color: var(--mywhite-50) !important;
 }
 
 footer a:hover{
